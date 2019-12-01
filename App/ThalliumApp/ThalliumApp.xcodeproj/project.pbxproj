@@ -13,6 +13,8 @@
 		894FED28239387E200D336E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894FED26239387E200D336E9 /* Main.storyboard */; };
 		894FED34239387E600D336E9 /* ThalliumAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894FED33239387E600D336E9 /* ThalliumAppTests.swift */; };
 		894FED3F239387E600D336E9 /* ThalliumAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894FED3E239387E600D336E9 /* ThalliumAppUITests.swift */; };
+		894FED4D2393920000D336E9 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894FED4C2393920000D336E9 /* Renderer.swift */; };
+		894FED53239397A200D336E9 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 894FED52239397A200D336E9 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		894FED3A239387E600D336E9 /* ThalliumAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThalliumAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		894FED3E239387E600D336E9 /* ThalliumAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThalliumAppUITests.swift; sourceTree = "<group>"; };
 		894FED40239387E600D336E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894FED4C2393920000D336E9 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		894FED4E2393939F00D336E9 /* ThalliumApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThalliumApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		894FED51239393FC00D336E9 /* ShaderDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderDefinitions.h; sourceTree = "<group>"; };
+		894FED52239397A200D336E9 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,10 @@
 				894FED26239387E200D336E9 /* Main.storyboard */,
 				894FED29239387E200D336E9 /* Info.plist */,
 				894FED2A239387E300D336E9 /* ThalliumApp.entitlements */,
+				894FED4C2393920000D336E9 /* Renderer.swift */,
+				894FED4E2393939F00D336E9 /* ThalliumApp-Bridging-Header.h */,
+				894FED51239393FC00D336E9 /* ShaderDefinitions.h */,
+				894FED52239397A200D336E9 /* Shaders.metal */,
 			);
 			path = ThalliumApp;
 			sourceTree = "<group>";
@@ -192,6 +202,7 @@
 				TargetAttributes = {
 					894FED1C2393878700D336E9 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 					894FED2E239387E600D336E9 = {
 						CreatedOnToolsVersion = 11.1;
@@ -254,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894FED53239397A200D336E9 /* Shaders.metal in Sources */,
 				894FED232393878800D336E9 /* ViewController.swift in Sources */,
+				894FED4D2393920000D336E9 /* Renderer.swift in Sources */,
 				894FED212393878800D336E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ThalliumApp/ThalliumApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -429,6 +443,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.saulr.ThalliumApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThalliumApp/ThalliumApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -437,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ThalliumApp/ThalliumApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -447,6 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.saulr.ThalliumApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThalliumApp/ThalliumApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
