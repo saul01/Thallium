@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		894FED212393878800D336E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894FED202393878800D336E9 /* AppDelegate.swift */; };
+		894FED232393878800D336E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894FED222393878800D336E9 /* ViewController.swift */; };
+		894FED25239387E200D336E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894FED24239387E200D336E9 /* Assets.xcassets */; };
+		894FED28239387E200D336E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894FED26239387E200D336E9 /* Main.storyboard */; };
+		894FED34239387E600D336E9 /* ThalliumAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894FED33239387E600D336E9 /* ThalliumAppTests.swift */; };
+		894FED3F239387E600D336E9 /* ThalliumAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894FED3E239387E600D336E9 /* ThalliumAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		894FED30239387E600D336E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 894FED152393878600D336E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 894FED1C2393878700D336E9;
+			remoteInfo = ThalliumApp;
+		};
+		894FED3B239387E600D336E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 894FED152393878600D336E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 894FED1C2393878700D336E9;
+			remoteInfo = ThalliumApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		894FED1D2393878800D336E9 /* ThalliumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThalliumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		894FED202393878800D336E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		894FED222393878800D336E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		894FED24239387E200D336E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		894FED27239387E200D336E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		894FED29239387E200D336E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894FED2A239387E300D336E9 /* ThalliumApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThalliumApp.entitlements; sourceTree = "<group>"; };
+		894FED2F239387E600D336E9 /* ThalliumAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThalliumAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		894FED33239387E600D336E9 /* ThalliumAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThalliumAppTests.swift; sourceTree = "<group>"; };
+		894FED35239387E600D336E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894FED3A239387E600D336E9 /* ThalliumAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThalliumAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		894FED3E239387E600D336E9 /* ThalliumAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThalliumAppUITests.swift; sourceTree = "<group>"; };
+		894FED40239387E600D336E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		894FED1A2393878700D336E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894FED2C239387E600D336E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894FED37239387E600D336E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		894FED142393878600D336E9 = {
+			isa = PBXGroup;
+			children = (
+				894FED1F2393878800D336E9 /* ThalliumApp */,
+				894FED32239387E600D336E9 /* ThalliumAppTests */,
+				894FED3D239387E600D336E9 /* ThalliumAppUITests */,
+				894FED1E2393878800D336E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		894FED1E2393878800D336E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				894FED1D2393878800D336E9 /* ThalliumApp.app */,
+				894FED2F239387E600D336E9 /* ThalliumAppTests.xctest */,
+				894FED3A239387E600D336E9 /* ThalliumAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		894FED1F2393878800D336E9 /* ThalliumApp */ = {
+			isa = PBXGroup;
+			children = (
+				894FED202393878800D336E9 /* AppDelegate.swift */,
+				894FED222393878800D336E9 /* ViewController.swift */,
+				894FED24239387E200D336E9 /* Assets.xcassets */,
+				894FED26239387E200D336E9 /* Main.storyboard */,
+				894FED29239387E200D336E9 /* Info.plist */,
+				894FED2A239387E300D336E9 /* ThalliumApp.entitlements */,
+			);
+			path = ThalliumApp;
+			sourceTree = "<group>";
+		};
+		894FED32239387E600D336E9 /* ThalliumAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				894FED33239387E600D336E9 /* ThalliumAppTests.swift */,
+				894FED35239387E600D336E9 /* Info.plist */,
+			);
+			path = ThalliumAppTests;
+			sourceTree = "<group>";
+		};
+		894FED3D239387E600D336E9 /* ThalliumAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				894FED3E239387E600D336E9 /* ThalliumAppUITests.swift */,
+				894FED40239387E600D336E9 /* Info.plist */,
+			);
+			path = ThalliumAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		894FED1C2393878700D336E9 /* ThalliumApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 894FED43239387E600D336E9 /* Build configuration list for PBXNativeTarget "ThalliumApp" */;
+			buildPhases = (
+				894FED192393878700D336E9 /* Sources */,
+				894FED1A2393878700D336E9 /* Frameworks */,
+				894FED1B2393878700D336E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThalliumApp;
+			productName = ThalliumApp;
+			productReference = 894FED1D2393878800D336E9 /* ThalliumApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		894FED2E239387E600D336E9 /* ThalliumAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 894FED46239387E600D336E9 /* Build configuration list for PBXNativeTarget "ThalliumAppTests" */;
+			buildPhases = (
+				894FED2B239387E600D336E9 /* Sources */,
+				894FED2C239387E600D336E9 /* Frameworks */,
+				894FED2D239387E600D336E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				894FED31239387E600D336E9 /* PBXTargetDependency */,
+			);
+			name = ThalliumAppTests;
+			productName = ThalliumAppTests;
+			productReference = 894FED2F239387E600D336E9 /* ThalliumAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		894FED39239387E600D336E9 /* ThalliumAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 894FED49239387E600D336E9 /* Build configuration list for PBXNativeTarget "ThalliumAppUITests" */;
+			buildPhases = (
+				894FED36239387E600D336E9 /* Sources */,
+				894FED37239387E600D336E9 /* Frameworks */,
+				894FED38239387E600D336E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				894FED3C239387E600D336E9 /* PBXTargetDependency */,
+			);
+			name = ThalliumAppUITests;
+			productName = ThalliumAppUITests;
+			productReference = 894FED3A239387E600D336E9 /* ThalliumAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		894FED152393878600D336E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Saul Rodriguez";
+				TargetAttributes = {
+					894FED1C2393878700D336E9 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					894FED2E239387E600D336E9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 894FED1C2393878700D336E9;
+					};
+					894FED39239387E600D336E9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 894FED1C2393878700D336E9;
+					};
+				};
+			};
+			buildConfigurationList = 894FED182393878600D336E9 /* Build configuration list for PBXProject "ThalliumApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 894FED142393878600D336E9;
+			productRefGroup = 894FED1E2393878800D336E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				894FED1C2393878700D336E9 /* ThalliumApp */,
+				894FED2E239387E600D336E9 /* ThalliumAppTests */,
+				894FED39239387E600D336E9 /* ThalliumAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		894FED1B2393878700D336E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894FED25239387E200D336E9 /* Assets.xcassets in Resources */,
+				894FED28239387E200D336E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894FED2D239387E600D336E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894FED38239387E600D336E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		894FED192393878700D336E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894FED232393878800D336E9 /* ViewController.swift in Sources */,
+				894FED212393878800D336E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894FED2B239387E600D336E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894FED34239387E600D336E9 /* ThalliumAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894FED36239387E600D336E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894FED3F239387E600D336E9 /* ThalliumAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		894FED31239387E600D336E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 894FED1C2393878700D336E9 /* ThalliumApp */;
+			targetProxy = 894FED30239387E600D336E9 /* PBXContainerItemProxy */;
+		};
+		894FED3C239387E600D336E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 894FED1C2393878700D336E9 /* ThalliumApp */;
+			targetProxy = 894FED3B239387E600D336E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		894FED26239387E200D336E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				894FED27239387E200D336E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		894FED41239387E600D336E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		894FED42239387E600D336E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		894FED44239387E600D336E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ThalliumApp/ThalliumApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ThalliumApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saulr.ThalliumApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		894FED45239387E600D336E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ThalliumApp/ThalliumApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ThalliumApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saulr.ThalliumApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		894FED47239387E600D336E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ThalliumAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saulr.ThalliumAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThalliumApp.app/Contents/MacOS/ThalliumApp";
+			};
+			name = Debug;
+		};
+		894FED48239387E600D336E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ThalliumAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saulr.ThalliumAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThalliumApp.app/Contents/MacOS/ThalliumApp";
+			};
+			name = Release;
+		};
+		894FED4A239387E600D336E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ThalliumAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saulr.ThalliumAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ThalliumApp;
+			};
+			name = Debug;
+		};
+		894FED4B239387E600D336E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ThalliumAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saulr.ThalliumAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ThalliumApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		894FED182393878600D336E9 /* Build configuration list for PBXProject "ThalliumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894FED41239387E600D336E9 /* Debug */,
+				894FED42239387E600D336E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		894FED43239387E600D336E9 /* Build configuration list for PBXNativeTarget "ThalliumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894FED44239387E600D336E9 /* Debug */,
+				894FED45239387E600D336E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		894FED46239387E600D336E9 /* Build configuration list for PBXNativeTarget "ThalliumAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894FED47239387E600D336E9 /* Debug */,
+				894FED48239387E600D336E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		894FED49239387E600D336E9 /* Build configuration list for PBXNativeTarget "ThalliumAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894FED4A239387E600D336E9 /* Debug */,
+				894FED4B239387E600D336E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 894FED152393878600D336E9 /* Project object */;
+}
