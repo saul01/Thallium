@@ -1,3 +1,3 @@
 # Thallium
 Interactive 3D Renderer using Metal.
-Inspired and guided by Hazel: https://github.com/TheCherno/Hazel
+References: Hazel game engine: https://github.com/TheCherno/Hazel
